@@ -1,5 +1,5 @@
 export default {
   async fetch(request) {
-    return Response.redirect('https://anicove.onrender.com', 301);
+    return Response.redirect('https://mwask-anicove.hf.space/', 301);
   },
 }
