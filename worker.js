@@ -1,5 +1,7 @@
 export default {
   async fetch(request) {
-    return Response.redirect('https://mwask-anicove.hf.space/', 301);
+    const url = new URL(request.url);
+    const targetUrl = 'https://mwask-anicove.hf.space/' + url.pathname.slice(1) + url.search;
+    return Response.redirect(targetUrl, 302);
   },
 }
