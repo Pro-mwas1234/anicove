@@ -1,6 +1,6 @@
 # Anicove Redirect
 
-A simple redirect website that automatically redirects visitors to `https://anicove.onrender.com`.
+A simple redirect website that automatically redirects visitors to `https://mwask-anicove.hf.space/`.
 
 ## Deployment on Cloudflare Pages
 
@@ -24,4 +24,4 @@ A simple redirect website that automatically redirects visitors to `https://anic
 
 ---
 
-**Redirect Target**: https://anicove.onrender.com
+**Redirect Target**: https://mwask-anicove.hf.space/
